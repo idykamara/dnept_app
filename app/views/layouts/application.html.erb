@@ -3,14 +3,15 @@
   <head>
     <title>DnetpApp</title>
     <%= csrf_meta_tags %>
-
+  <!--Changement du style de couleur de boostrap -->
+    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body bgcolor="purple">
   <%= render 'layouts/header' %>
-  
+
   <div class="container">
     <%= yield %>
 
