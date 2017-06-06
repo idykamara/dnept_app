@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   #get 'welcome/index'
   # La page principale de l'application
   root 'welcome#index'
